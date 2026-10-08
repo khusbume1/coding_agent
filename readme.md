@@ -1,6 +1,6 @@
-# Educosys Claude
+# Personal Coding Agent
 
-Educosys Claude is a command-line, RAG-powered code assistant for asking questions about a local codebase. It indexes source files into a vector store, exposes a LangChain agent with retrieval, filesystem, terminal, and MCP tools, and persists conversation state through LangGraph's SQLite checkpointer.
+Personal Coding Agent is a command-line, RAG-powered code assistant for asking questions about a local codebase. It indexes source files into a vector store, exposes a LangChain agent with retrieval, filesystem, terminal, and MCP tools, and persists conversation state through LangGraph's SQLite checkpointer.
 
 The package entry point is configured in `pyproject.toml` as `educosys_claude = "educosys_claude.main:run"`.
 
